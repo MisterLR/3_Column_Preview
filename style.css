@@ -1,0 +1,130 @@
+/* Body */
+
+body {
+    font-size: 15px;
+
+    background: hsl(0, 0%, 95%);
+
+    padding: 0;
+    margin: 0;
+}
+
+/* Divs */
+
+.headers {
+    width: 1000px;
+    height: 500px;
+
+    overflow: hidden; /* Enabled border-radius property */
+    
+    border-radius: 10px;
+
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.sedans {
+    display: block;
+    box-sizing: border-box;
+
+    float: left;
+    background-color: hsl(31, 77%, 52%);
+    max-width: 33%;
+    height: 500px;
+
+    line-height: 1.8em;
+
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+.suvs {
+    display: block;
+    box-sizing: border-box;
+
+    float: left;
+    background-color: hsl(184, 100%, 22%);
+    max-width: 33%;
+    height: 500px;
+
+    line-height: 1.8em;
+
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+.luxury {
+    display: block;
+    box-sizing: border-box;
+
+    float: left;
+    background-color: hsl(179, 100%, 13%);
+    max-width: 33%;
+    height: 500px;
+
+    line-height: 1.8em;
+
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+/* Text */
+
+.h1s {
+    text-transform: uppercase;
+
+    color: hsl(0, 0%, 95%);
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+
+    padding-top: 20px;
+}
+
+.main_text {
+    color: hsla(0, 0%, 100%, 0.75);
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+    padding-top: 15px;
+}
+
+/* Buttons */
+
+#button_1 {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+
+#button_2 {
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+
+#button_3 {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+.learn_button {
+    height: 50px;
+    width: 135px;
+
+    background: hsl(0, 0%, 95%);
+
+    border: 0px solid black;
+    border-radius: 2em;
+
+    margin-top: 30px;
+}
+
+.learn_button:hover {
+    cursor: pointer;
+}
+
+/* Images */
+
+.images {
+    margin-top: 50px;
+}
